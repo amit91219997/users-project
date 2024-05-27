@@ -3,13 +3,13 @@ import { getFirestore, getDocs, collection, deleteDoc, doc } from 'https://www.g
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCkSu9yL8BsuUCBHJkAAU4d3fhAV-QNgCU",
-  authDomain: "usersproject-d4fa1.firebaseapp.com",
-  projectId: "usersproject-d4fa1",
-  storageBucket: "usersproject-d4fa1.appspot.com",
-  messagingSenderId: "819724240692",
-  appId: "1:819724240692:web:ab14d7b8de15cd99d2c761",
-  measurementId: "G-S7GP4GMF2B"
+  apiKey: "AIzaSyDzvEx7IGrVI8KOcuaqjclv_bJEZc9hdos",
+  authDomain: "e-commerce-application-60e47.firebaseapp.com",
+  projectId: "e-commerce-application-60e47",
+  storageBucket: "e-commerce-application-60e47.appspot.com",
+  messagingSenderId: "397687973430",
+  appId: "1:397687973430:web:fbbcb784f01391f494da97",
+  measurementId: "G-XXL2QS3848"
 };
 
 const app = initializeApp(firebaseConfig);
